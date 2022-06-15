@@ -7,6 +7,13 @@ export const About: React.FC = () => (
         <Description />
 
         {/* Image */}
-        <Image src="/images/woman.jpg" alt="woman" width={1500} height={1500} objectFit="contain" />
+        <Image
+            src="/images/woman.jpg"
+            alt="woman"
+            width={1500}
+            height={1500}
+            objectFit="contain"
+            className="grayscale hover:grayscale-0 transition-all duration-150 ease-linear cursor-pointer"
+        />
     </div>
 );
