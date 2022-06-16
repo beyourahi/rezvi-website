@@ -1,18 +1,18 @@
 interface ButtonProps {
-    link: string;
-    classNames?: string;
-    text: string;
+  link?: string;
+  classNames?: string;
+  children: React.ReactNode | string;
 }
 
-export const Button: React.FC<ButtonProps> = ({ link, classNames, text }) => (
-    <a
-        href={link}
-        className={`${classNames} active:scale-90 rounded-lg py-4 transition-all duration-200 ease-linear`}
-    >
-        {text}
-    </a>
+export const Button: React.FC<ButtonProps> = ({ link, classNames, children }) => (
+  <a
+    href={link}
+    className={`px-10 text-white active:scale-90 rounded-lg py-4 transition-all duration-150 ease-linear ${classNames}`}
+  >
+    {children}
+  </a>
 );
 
 Button.defaultProps = {
-    classNames: "bg-amber-600 hover:bg-amber-700 px-10",
-};
+  classNames: "bg-amber-500 hover:bg-amber-600"
+}

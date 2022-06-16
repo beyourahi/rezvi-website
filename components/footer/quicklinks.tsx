@@ -9,10 +9,10 @@ export const Quicklinks: React.FC = () => (
 
     <ul className="text-lg flex flex-col gap-y-2">
       <li className="hover:text-amber-600 transition-all duration-200 ease-linear">
-        <a href="#">About Me</a>
+        <a href="#about">About Me</a>
       </li>
       <li className="hover:text-amber-600 transition-all duration-200 ease-linear">
-        <a href="#">Services</a>
+        <a href="#services">Services</a>
       </li>
       <li className="hover:text-amber-600 transition-all duration-200 ease-linear">
         <a href="#">Projects</a>
