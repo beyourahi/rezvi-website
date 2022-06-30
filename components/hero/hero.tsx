@@ -4,7 +4,7 @@ import { Masthead } from "./masthead";
 import { Video } from "./video";
 
 export const Hero: React.FC = () => (
-  <section className="min-h-screen flex flex-col items-center justify-center">
+  <section className="min-h-screen flex flex-col items-center justify-center bg-red-500 text-white">
     {/* Video background */}
     <Video />
 

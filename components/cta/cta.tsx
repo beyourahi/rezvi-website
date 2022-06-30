@@ -2,7 +2,7 @@ import { Button } from "@/utils/button";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
 
 export const CTA: React.FC = () => (
-  <div className="text-center h-[60vh] flex flex-col gap-y-14 justify-center items-center">
+  <div className="container mx-auto px-28 text-center h-[60vh] flex flex-col gap-y-14 justify-center items-center">
     <h1 className="text-5xl font-bold leading-normal">Turn your traffic into loyal customers <br /> and return visitors.</h1>
     <Button
       link=""
