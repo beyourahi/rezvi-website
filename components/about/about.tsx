@@ -2,7 +2,7 @@ import Image from "next/image";
 import { Description } from "./description";
 
 export const About: React.FC = () => (
-  <div id="about" className="min-h-screen container mx-auto px-28 flex items-center justify-between gap-x-28">
+  <div id="about" className="min-h-screen container mx-auto px-6 lg:px-28 flex flex-col-reverse gap-y-12 lg:flex-row items-center justify-between gap-x-28">
     {/* Description */}
     <Description />
 

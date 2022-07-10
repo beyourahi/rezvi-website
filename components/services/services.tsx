@@ -49,13 +49,13 @@ const servicesData = [
 export const Services: React.FC = () => (
   <div
     id="services"
-    className="min-h-screen container mx-auto px-28 flex flex-col items-center justify-center gap-y-24"
+    className="min-h-screen container mx-auto px-6 lg:px-28 flex flex-col items-center justify-center gap-y-24"
   >
     {/* Services Header */}
     <ServicesHeader />
 
     {/* Service Card grid */}
-    <div className="grid grid-cols-3 gap-6">
+    <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
       {servicesData.map((service, index) => (
         <Servicecard
           key={index}
@@ -69,7 +69,7 @@ export const Services: React.FC = () => (
     {/* CTA button */}
     <Button
       link=""
-      classNames="bg-amber-500 hover:bg-amber-600 flex gap-x-2.5 items-center font-bold group text-xl"
+      classNames="bg-amber-500 hover:bg-amber-600 flex gap-x-2.5 items-center font-bold group text-base lg:text-xl"
     >
       <span>Get Started</span>{" "}
       <BsFillArrowRightCircleFill className="group-hover:translate-x-1 transition-all duration-150 ease-linear" />

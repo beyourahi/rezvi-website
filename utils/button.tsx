@@ -7,7 +7,7 @@ interface ButtonProps {
 export const Button: React.FC<ButtonProps> = ({ link, classNames, children }) => (
   <a
     href={link}
-    className={`px-8 text-white active:scale-90 rounded-lg py-4 transition-all duration-150 ease-linear ${classNames}`}
+    className={`px-12 py-4 lg:py-5 text-white active:scale-90 rounded-xl transition-all duration-150 ease-linear ${classNames}`}
   >
     {children}
   </a>

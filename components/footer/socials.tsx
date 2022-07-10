@@ -35,7 +35,7 @@ export const Socials: React.FC = () => (
       Me
     </h3>
 
-    <ul className="flex gap-x-6 text-4xl">
+    <ul className="flex gap-x-6 text-3xl lg:text-4xl">
       {socialData.map((social, index) => (
         <li
           key={index}
